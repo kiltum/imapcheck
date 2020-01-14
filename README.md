@@ -14,3 +14,9 @@ optional arguments:
   -v, --verbose         Show every step with results
   -q, --quiet           Return result only in exit code
 ```
+
+## Return values
+
+Return OK or FAILED to stdout. Also exit code 0 or 1.
+
+If -q is present, only exit code will return and no any output. 
